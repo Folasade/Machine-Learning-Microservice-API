@@ -1,0 +1,31 @@
+(.devops) ubuntu@ip-172-31-76-153:~/DevOps_Microservices/project-ml-microservice-kuberne
+tes$ ./run_kubernetes.sh
+Error from server (AlreadyExists): pods "ml-predictions" already exists
+NAMESPACE     NAME                               READY   STATUS    RESTARTS   AGE
+default       demolocal                          1/1     Running   0          88m
+default       ml-prediction                      1/1     Running   0          26m
+default       ml-prediction-5bf94fd798-2x96r     1/1     Running   0          30m
+default       ml-prediction-5bf94fd798-pgqvm     1/1     Running   0          30m
+default       ml-predictions                     1/1     Running   0          4m53s
+default       ml-predictions-7f9c98477b-7t72g    1/1     Running   0          5m3s
+default       ml-predictions-7f9c98477b-kw29z    1/1     Running   0          5m3s
+kube-system   coredns-66bff467f8-kwhnz           1/1     Running   2          9d
+kube-system   etcd-minikube                      1/1     Running   0          4h49m
+kube-system   kube-apiserver-minikube            1/1     Running   0          4h49m
+kube-system   kube-controller-manager-minikube   1/1     Running   1          9d
+kube-system   kube-proxy-9hm9h                   1/1     Running   1          9d
+kube-system   kube-scheduler-minikube            1/1     Running   1          9d
+kube-system   storage-provisioner                1/1     Running   3          9d
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+
+=====================================
+
+Port: 8080
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+
+<paste log output from Kubernetes-mediated prediction, here>
