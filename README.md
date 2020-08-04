@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![Folasade](https://circleci.com/gh/folasade/Machine-Learning-Microservice-API/tree/new_branch.svg?style=svg)](https://github.com/folasade/Machine-Learning-Microservice-API/tree/new_branch)
 
 ## Project Overview
 
