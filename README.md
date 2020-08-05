@@ -1,4 +1,4 @@
-[![folasade](https://circleci.com/gh/folasade/Machine-Learning-Microservice-API/tree/new_branch.svg?style=svg)](https://circleci.com/gh/folasade/Machine-Learning-Microservice-API/tree/new_branch)
+[![Folasade](https://circleci.com/gh/Folasade/Machine-Learning-Microservice-API/tree/new_branch.svg?style=svg)](https://circleci.com/gh/Folasade/Machine-Learning-Microservice-API/tree/new_branch)
 
 ## Project Overview
 **Operationalize a Machine Learning Microservice API**
